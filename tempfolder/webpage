@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>web class week 3</title>
+    <style>
+        .up
+        {
+            text-decoration: underline;
+            background-color: aqua;
+            text-align: center;
+            font: italic 30px Georgia, serif;
+        }
+        .container
+        {
+            background-color: aquamarine;
+            text-align: center;
+            font: italic 20px Georgia, serif;
+            border-style: solid;
+        }
+        .down{
+            text-align: center;
+            /* /* background-color: wheat; */
+            font-size: 20px; 
+            font-variant: small-caps;
+            /* border-style: outset; */
+         
+  width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+
+
+        
+        
+        }
+
+    </style>
+</head>
+<body><div class="up">
+    <h1 >Learning about div Tag</h1>
+    <p >The HTML elements are created using tags. They are grouped by function to help you find what you have in mind easily.</p>
+</div>
+    <div class="container">
+        
+        <p>The HTML Content Division element (< div>) is the generic container for flow content. It has no effect on the content or layout until styled using CSS.</p>
+        <p>As a "pure" container, the < div> element does not inherently represent anything. Instead, it's used to group content so it can be easily styled using the class or id attributes,<br> marking a section of a document as being written in a different language (using the lang attribute), and so on.</p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">To know more about CSS div tag, click here</a></p>
+    </div>
+<div class="down">
+    <p>Name- Ishaan Shanker</p>
+    <p>Roll No.-1906057</p>
+</div>
+</body>
